@@ -34,6 +34,9 @@ __pycache__/
 Thumbs.db
 
 *backups*
+* bu.*
+*_bu.*
+# Ignore all files that contain "bu" in their name | This is a common pattern for ignoring backup files, which may be generated during development and do not need to be tracked in version control.
 # Ignore all files that contain "backups" in their name | This is a common pattern for ignoring backup files, which may be generated during development and do not need to be tracked in version control.
 
 *.exe
